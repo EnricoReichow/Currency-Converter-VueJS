@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <h1 class="introMessage">Currency Converter</h1>
+    <Converter currency-a="USD" currency-b="BRL" />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Converter from "./components/Converter.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Converter
   }
 }
 </script>
 
 <style>
+body {
+  background-color: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
+  ;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introMessage{
+  padding-top: 20%;
+  color: rgb(255, 255, 255);
 }
 </style>
