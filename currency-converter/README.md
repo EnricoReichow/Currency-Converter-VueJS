@@ -1,24 +1,6 @@
-# currency-converter
+# Enrico's Currency Converter
 
-## Project setup
 ```
-yarn install
+This project was made using VueJS and their component properties. 
+The USD quotation may be out of the current value, since it is from 02/27/2023. 
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
